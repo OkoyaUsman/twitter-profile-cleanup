@@ -49,7 +49,7 @@ def main():
 
 class API:
     def __init__(self, token, ct0):
-        self.session = curl_cffi.Session(impersonate="chrome")
+        self.session = curl_cffi.Session(impersonate="chrome123")
         headers = {
             'authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA',
             'origin': 'https://x.com',
